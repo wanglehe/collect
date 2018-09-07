@@ -46,7 +46,9 @@ public class EquipmentController {
     public String saveEquipment(Equipment equipment) {
         equipmentRepository.save(equipment);
         String url = "http://59.110.12.152:8080/#/detail?id=";
+        String s="2";
         return url;
+
     }
     @RequestMapping(value = "/listEquipment",method = RequestMethod.GET)
     @ResponseBody
