@@ -113,7 +113,7 @@ public class EquipmentController {
         String str=null;
         Collections c= new Collections();
         c.setIp(str);
-        //11
+        //1122
     }
 
 
